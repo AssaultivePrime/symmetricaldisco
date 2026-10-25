@@ -1,0 +1,16 @@
+{
+  "name": "profile-builder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A simple, personal Strawpage-style profile page builder",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/e2e.test.js && node test/cloud.test.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
